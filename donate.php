@@ -2,10 +2,10 @@
 session_start();
 
 // Database credentials
-$servername = "198.38.84.112";  // Hostname
-$username = "trackyou1_test";  // Username
-$password = "TRACKdonation@322";  // Password
-$dbname = "trackyou1_users";    // Database Name
+$servername = "";  // Hostname
+$username = "";  // Username
+$password = "";  // Password
+$dbname = "";    // Database Name
 
 // Check if the user is logged in
 if (!isset($_SESSION['user_email'])) {
