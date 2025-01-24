@@ -26,8 +26,8 @@ if (!isset($_SESSION['user_email'])) {
 // Get the logged-in user's email from the session
 $loggedInUserEmail = $_SESSION['user_email'];
 
-// If the logged-in user is not 'tanuj@gmail.com', show message and exit
-if ($loggedInUserEmail !== 'tanuj@gmail.com') {
+// If the logged-in user is not 'test@gmail.com', show message and exit
+if ($loggedInUserEmail !== 'test@gmail.com') {
     echo "<h2>You are now an admin, please login with admin credentials.</h2>";
     exit();
 }
