@@ -3,10 +3,10 @@
 session_start();
 
 // Database connection parameters
-$servername = "198.38.84.112";
-$username = "trackyou1_test";
-$password = "TRACKdonation@322";
-$dbname = "trackyou1_users";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
