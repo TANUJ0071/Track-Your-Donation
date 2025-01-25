@@ -26,15 +26,6 @@ php -S localhost:8000
 3. Track the progress of your donations and see the impact metrics.
 4. Manage your donation history and view detailed reports.
 
-## API
-
-The application provides the following API endpoints:
-
-- `GET /api/campaigns`: Retrieve a list of active campaigns.
-- `POST /api/donations`: Create a new donation.
-- `GET /api/donations`: Retrieve a user's donation history.
-- `GET /api/impact`: Retrieve the impact metrics for a user's donations.
-
 ## Contributing
 
 1. Fork the repository.
