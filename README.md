@@ -1,55 +1,77 @@
-# TrackYourDonation
+# Track-Your-Donation
 
-TrackYourDonation is a web application that allows users to track the impact of their donations and see how their contributions are being used.
+A platform designed to bring transparency and trust to donations. Track your contributions in real-time, see exactly how they're making an impact, and stay connected with the causes you care about.  Our website ensures accountability.
 
-## Installation
 
-1. Clone the repository:
-```
-git clone https://github.com/your-username/trackyourdonation.git
-```
-2. Install the required dependencies:
-```
-composer install
-```
-3. Create a new database and update the database credentials in the `config.php` file.
-4. Run the SQL script to create the necessary tables.
-5. Start the development server:
-```
-php -S localhost:8000
-```
+## Features and Functionality
 
-## Usage
+* **Real-time Donation Tracking:**  Monitor your donations and their progress in real-time.
+* **Impact Reporting:**  See exactly how your contributions are being utilized and the positive impact they are creating.
+* **Campaign Visibility:**  View active campaigns and donate to the causes you care about.
+* **User Dashboard:**  Access a personalized dashboard to view your donation history, impact score, and more.
+* **Secure Transactions:** (Assumed, not explicitly shown in code)  Safe and secure payment gateway integration.
+* **Admin Panel:** (Present in `detail.php` and `donations.php`)  Allows administrators to manage user data, update campaign details and view donation records.
 
-1. Register a new account or log in to an existing one.
-2. Explore the available campaigns and make donations.
-3. Track the progress of your donations and see the impact metrics.
-4. Manage your donation history and view detailed reports.
 
-## Contributing
+## Technology Stack
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Implement your changes and ensure the tests pass.
-4. Submit a pull request with a detailed description of your changes.
+* **PHP:** Server-side scripting language.
+* **MySQL:** Database for storing user data, campaign information, and donation details.
+* **HTML, CSS:** Front-end technologies for creating the user interface.
+* **Tailwind CSS:**  CSS framework for rapid UI development.
+* **Font Awesome:** Icon library.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
+## Prerequisites
 
-## Testing
+* **Web Server:** Apache, Nginx, or similar.
+* **PHP:** Version 7.4 or higher (or as specified by your Tailwind CSS setup).
+* **MySQL:** Database server with appropriate credentials.
+* **PHP MySQLi Extension:** Ensure this is enabled in your PHP configuration.
 
-To run the test suite, execute the following command:
 
-```
-phpunit tests/
-```
+## Installation Instructions
 
-The test suite covers the following aspects of the application:
+1. **Clone the Repository:**
 
-- User authentication and authorization
-- Donation processing and tracking
-- Campaign management
-- Impact reporting
+   ```bash
+   git clone https://github.com/TANUJ0071/Track-Your-Donation.git
+   ```
 
-Make sure all tests pass before submitting your changes.
+2. **Database Setup:** Create a MySQL database and import the necessary tables (structure not provided in the given code snippets; this is a crucial missing part). Update the database credentials (`servername`, `username`, `password`, `dbname`) in the `campaign.php`, `dashboard.php`, `detail.php`, `donate.php`, `donations.php`, `login.php` and `signup.php` files.
+
+3. **Configure Web Server:** Configure your web server to serve the files from the cloned directory.
+
+
+## Usage Guide
+
+1. **Sign Up/Log In:**  Navigate to `signup.php` to create a new account or `login.php` to log in with existing credentials.
+2. **Dashboard:** Upon successful login, you will be redirected to your dashboard (`dashboard.php`).
+3. **Track Donations:** View your donation history and impact through `track.php`.
+4. **View Campaigns:** Browse active campaigns and donate via `campaign.php`.
+5. **Admin Access:**  `detail.php` and `donations.php` provide admin functionality (access restricted, as indicated in the code; requires `test@gmail.com` credentials). This requires proper authentication setup.
+
+
+
+## API Documentation
+
+No API is explicitly defined in the provided code.
+
+
+## Contributing Guidelines
+
+1. **Fork the Repository:** Create a fork of the project on your GitHub account.
+2. **Create a Branch:** Create a new branch for your feature or bug fix.
+3. **Make Changes:** Implement your changes and ensure they are well-documented.
+4. **Test Thoroughly:** Test your changes to ensure they work correctly.
+5. **Create a Pull Request:** Submit a pull request to the main branch of the original repository.
+
+
+## License Information
+
+License information is not specified in the repository.  This needs to be added.
+
+
+## Contact/Support Information
+
+For support or inquiries, please contact the repository owner (TANUJ0071) through GitHub or other means they choose to make public (e.g., an email address in the repository's about section or other files).  There are no contact details present in the provided code.
